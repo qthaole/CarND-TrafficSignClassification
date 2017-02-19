@@ -20,7 +20,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./images/barchart.png "Visualization"
-[image2]: ./images/color_gray.jpg "Grayscaling"
+[image2]: ./images/color_gray.png "Grayscaling"
 [image3]: ./images/random_noise.jpg "Random Noise"
 [image4]: ./images/2_speedlimit.png "Traffic Sign 1"
 [image5]: ./images/12_1_PriorityRoad.png "Traffic Sign 2"
@@ -182,6 +182,7 @@ For the image of Priority road sign, the model is very sure that this is a Prior
 
 
 For the image of Yield sign:
+
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 1         			| Yield   										| 
@@ -191,6 +192,7 @@ For the image of Yield sign:
 | 0	    				| 60 km/h limit      							|
 
 For the image of Stop sign:
+
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 1         			| Stop   										| 
@@ -200,6 +202,7 @@ For the image of Stop sign:
 | 2.32363629e-20		| 80 km/h limit      							|
 
 For the image of 50 km/h speed limit sign: The model is 87.8 percent sure that this is a 60 km/h limit sign while 12.9 percent sure that this is a 50 km/h limit sign. But it turned out to be 50 km/h limit sign instead.
+
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 0.878         		| 60 km/h limit   								| 
@@ -209,6 +212,7 @@ For the image of 50 km/h speed limit sign: The model is 87.8 percent sure that t
 | 5.17113053e-26	    | No passing for vehicles over 3.5 metric tons  |
 
 For the image of Wild animals crossing sign:
+
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 1         			| Wild animals crossing   						| 
